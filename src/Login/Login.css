@@ -1,0 +1,15 @@
+.login-container{
+    background-color: grey;
+    height: 51.6em;
+}
+.imagegrid{
+    position: relative;
+    top: 9em;
+    right: 16em;
+}
+.loginForm{
+    position: relative;
+    left: 4em;
+    top: 9em;
+    background-color: aliceblue;
+}

@@ -1,15 +1,30 @@
 .login-container{
-    background-color: grey;
+    background-color: #d3d3d3;
     height: 51.6em;
 }
 .imagegrid{
     position: relative;
-    top: 9em;
+    top: 6em;
     right: 16em;
 }
 .loginForm{
     position: relative;
     left: 4em;
     top: 9em;
-    background-color: aliceblue;
+    background-color: #FFFFFF;
+    width: 40em;
+    justify-content: start !important;
+}
+.formTypo{
+    color: #0f1f3d;
+}
+.input1{
+    padding: 1em;
+}
+.checkP{
+    display: block ;
+}
+.Btnlogin{
+    background-color: aqua !important;
+    color: #FFFFFF !important;
 }

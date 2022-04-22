@@ -9,22 +9,39 @@
 }
 .loginForm{
     position: relative;
-    left: 4em;
-    top: 9em;
+    left: 1em;
+    top: 6em;
     background-color: #FFFFFF;
-    width: 40em;
+    width: 30em;
+    height: 33em;
     justify-content: start !important;
 }
 .formTypo{
     color: #0f1f3d;
+    position: relative;
+    /* right: 10em; */
+
 }
 .input1{
     padding: 1em;
+    position: relative;
+    right: 7em;
 }
 .checkP{
-    display: block ;
+    display: flex;
 }
 .Btnlogin{
     background-color: aqua !important;
     color: #FFFFFF !important;
+    position: relative;
+    right: 13em;
+}
+.chackPara{
+    position: relative;
+    bottom: 4px;
+}
+.forgotLinks{
+    position: relative;
+    left: 8em;
+    bottom: 5em;
 }

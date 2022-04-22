@@ -71,6 +71,14 @@ return (
                             >
                                 Login
                         </Button>
+                        <div className="forgotLinks">
+                            <div className="forgotPass">
+                                <p>Forgot Password?</p>
+                            </div>
+                            <div className="noAcc">
+                                <p>Don't have a password?</p>
+                            </div>
+                        </div>
                     </div>
                 </Grid>
             </Grid>    

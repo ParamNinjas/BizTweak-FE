@@ -4,14 +4,15 @@ import Typography from '@material-ui/core/Typography';
 import TextField from '@material-ui/core/TextField';
 import signin from '../Images/signin.png'
 import Container from '@material-ui/core/Container';
-import Checkbox from '@material-ui/core/Checkbox';
 import Button from '@material-ui/core/Button';
+import Nav from "../components/Nav/Nav";
 import './Signup.css'
 
 
 const Signup=()=>{
     return(
         <div className="Signup-con">
+            <Nav/>
              <Container maxWidth="sm">
             <Grid container>
                 <Grid item xs={12} sm={12} md={5} lg={5}>

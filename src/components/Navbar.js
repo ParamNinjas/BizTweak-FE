@@ -29,19 +29,19 @@ const Navbar = () => {
                     <Link to='/'>Home</Link>
                 </li>
                 <li>
-                    <Link to='/training'>Blog</Link>
+                    <Link to='/blog'>Blog</Link>
                 </li>
                 {/* <li>
                     <Link to='/recruitment'>Recruitment</Link>
                 </li> */}
                 <li>
-                    <Link to='/pricing'>About Us</Link>
+                    <Link to='/about'>About Us</Link>
                 </li>
                 <li>
-                    <Link to='/contact'>Sign In</Link>
+                    <Link to='/login'>Sign In</Link>
                 </li>
                 <li className="nav-btn">
-            <Button text={"Register"} btnClass={"btn-dark"} href={"#faq"} />
+            <Button text={"Register"} btnClass={"btn-dark"} href={"/sign_up"} />
           </li>
             </ul>
             <div className='hamburger' onClick={handleClick}>

@@ -1,17 +1,17 @@
 import React from 'react'
 import Footernew from '../components/Footernew'
-import HeroImage from '../components/HeroImage'
 import Navbar from '../components/Navbar'
-import Form from '../components/Form'
-
+import About from '../About/About'
+import Subscribe from '../../src/components/subscribe/Subscribe'
 
 
 const Contact = () => {
     return (
         <div>
             <Navbar />
-         
-            <Footernew/>
+            <About />
+            <Subscribe />
+            <Footernew />
         </div>
     )
 }

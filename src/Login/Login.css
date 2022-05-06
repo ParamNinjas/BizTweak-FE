@@ -29,7 +29,7 @@
 .input1{
     padding: 1em;
     position: relative;
-    right: 7em;
+   
 }
 .checkP{
     display: flex;
@@ -46,6 +46,6 @@
 }
 .forgotLinks{
     position: relative;
-    left: 8em;
-    bottom: 5em;
+    left: 15em;
+    bottom: 6em;
 }

@@ -1,37 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit:wght@100;300;400;500;600;700;800&display=swap');
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-h1, h4, p, a {
-  color: #fff;
-}
-
-body {
-  margin: 0;
-  font-family: "Segoe UI","Roboto","Helvetica Neue","Arial","Noto Sans","Liberation Sans","sans-serif","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-  background: #Ffff;
-  /* background: radial-gradient(circle, rgba(75, 69, 134, 1) 0%, rgba(41, 35, 104, 1) 71%); */
-}
-
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
 .btn {
   padding: 12px 32px;

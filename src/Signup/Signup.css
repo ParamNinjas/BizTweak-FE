@@ -15,10 +15,10 @@
     background-color: aqua !important;
     color: #FFFFFF !important;
     position: relative;
-    right: 13em;
+    right: -1em;
 }
 .haveAcc{
     position: relative;
-    left: 6em;
+    left: 15em;
     bottom: 3em;
 }

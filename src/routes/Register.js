@@ -5,14 +5,14 @@ import TextField from '@material-ui/core/TextField';
 import signin from '../Images/signin.png'
 import Container from '@material-ui/core/Container';
 import Button from '@material-ui/core/Button';
-import Nav from "../components/Nav/Nav";
+import Navbar from '../components/Navbar'
 import '../Signup/Signup.css'
 
 
 const Signup=()=>{
     return(
         <div className="Signup-con">
-            <Nav/>
+            <Navbar/>
              <Container maxWidth="sm">
             <Grid container>
                 <Grid item xs={12} sm={12} md={5} lg={5}>

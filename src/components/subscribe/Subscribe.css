@@ -1,0 +1,74 @@
+section#subscribe {
+  background: url(../../assets/mail.png);
+  text-align: center;
+  color: #fff;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.subscribe h6 {
+  padding: 30px 0px;
+  color: var(--orange-color);
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.subscribe p {
+  /* max-width: 100px;
+  text-align: center; */
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #fff;
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.subscribe h2 {
+  margin-top: 1rem!important;
+  margin-bottom: 1rem!important;
+  max-width: 100%;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.4;
+  /* text-transform: uppercase; */
+  margin: 1.5rem 0;
+  padding-bottom: 1rem;
+}
+
+form > * {
+  /* width: 100%; */
+  max-width: 100%;
+  margin: 4rem auto;
+}
+
+form input {
+  padding: 1rem;
+  background: #fff;
+  border: 2px solid #777;
+  border-radius: 50px 0 0 50px;
+  color: rgb(0, 0, 0);
+  outline: none;
+  width: 80%;
+  font-size: 1.6rem;
+}
+
+form button {
+  padding: 1rem;
+  background: var(--form-button);
+  border: 1px solid var(--form-button);
+  border-radius: 0 5px 5px 0;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  form input {
+    width: 60%;
+  }
+}

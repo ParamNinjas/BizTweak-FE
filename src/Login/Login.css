@@ -19,8 +19,12 @@
 .formTypo{
     color: #0f1f3d;
     position: relative;
+    font-weight: 3em !important;
     /* right: 10em; */
 
+}
+.loginHeading{
+    font-weight: 3em !important;
 }
 .input1{
     padding: 1em;

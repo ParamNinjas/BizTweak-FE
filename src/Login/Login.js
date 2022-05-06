@@ -33,6 +33,7 @@ return (
                     <div className="loginForm">
                         <div className="formTypo">
                             <Typography 
+                            className="loginHeading"
                             variant="h3"
                             // fontweight='Bold'
                             >

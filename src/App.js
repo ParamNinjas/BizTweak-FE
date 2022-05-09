@@ -5,6 +5,7 @@ import Blog from './routes/Blog'
 import About from './routes/About';
 import Login from './routes/SignIn';
 import Register from './routes/Register';
+import Signup from './routes/Register';
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
         <Route path='/' element={<Home />} />
          <Route path='/About' element={< About/>} />
        <Route path='/sign_up' element={<Register />} /> 
-        <Route path='/Signin' element={<Login />} />
+        <Route path='/login' element={<Login />} />
         <Route path='/blog' element={<Blog />} /> 
       </Routes>
     </>

@@ -2,9 +2,9 @@
     width: 100%;
     /* margin: 0.1rem 0; */
     display: grid;
-    background: #f2f6f7;
+    background: #ffffff;
     grid-template-columns: repeat(2, 1fr);
-    height: 100%;
+    height: auto;
     
 }
 
@@ -61,9 +61,6 @@
     text-align: left;
 }
 
-.left .img-container  {
-    
-}
 
 @media screen and (max-width: 1140px) {
     .training {

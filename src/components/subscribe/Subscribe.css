@@ -1,23 +1,23 @@
 section#subscribe {
   background: url(../../assets/mail.png);
   text-align: center;
+  display: flex;
   color: #fff;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .subscribe h6 {
-  padding: 30px 0px;
+  padding: 10px 0px;
   color: var(--orange-color);
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
 .subscribe p {
-  /* max-width: 100px;
-  text-align: center; */
-  margin-top: 0;
-  margin-bottom: 1rem;
+  text-align: center;
+  max-width: 500px;
+  align-items: center;
   color: #fff;
   display: block;
     margin-block-start: 1em;
@@ -47,23 +47,30 @@ form > * {
 form input {
   padding: 1rem;
   background: #fff;
-  border: 2px solid #777;
+  border: 2px solid rgb(200, 200, 200);
   border-radius: 50px 0 0 50px;
   color: rgb(0, 0, 0);
   outline: none;
-  width: 80%;
-  font-size: 1.6rem;
+  width: 60%;
+  font-size: 1.2rem;
 }
 
 form button {
   padding: 1rem;
-  background: var(--form-button);
+  background: #009EA9;
   border: 1px solid var(--form-button);
-  border-radius: 0 5px 5px 0;
+  border-radius: 0 30px 30px 0px;
   color: #fff;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   font-weight: 500;
+  cursor: pointer;
 }
+
+form button :hover{
+  background: #fff;
+  color: #00dded;
+}
+
 
 
 
